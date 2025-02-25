@@ -22,7 +22,7 @@
         android:text="" />
     
     <TextView
-        android:id="@+id/resultado"
+        android:id="@+id/txt_resultado"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:textColor="@color/black"
@@ -150,10 +150,11 @@
             style="@style/Numbers_Button"
             android:text="0"/>
 
-        <TextView
+        <ImageView
             android:id="@+id/backspace"
             style="@style/Numbers_Button"
-            android:text="backspace"/>
+            android:src="@drawable/apagar"
+            android:scaleType="center"/>
 
         <TextView
             android:id="@+id/igual"
